@@ -75,8 +75,8 @@ class Rounds:
 
         while True:
             # For Debugging: To reveal Player Hand while testing the game uncomment the below 2 lines.
-            print(f"{self.player_hand.name1.name}'s hand: {[str(card) for card in self.player_hand.name1.hand]}")
-            print(f"{self.player_hand.name2.name}'s hand: {[str(card) for card in self.player_hand.name2.hand]}")
+            #print(f"{self.player_hand.name1.name}'s hand: {[str(card) for card in self.player_hand.name1.hand]}")
+            #print(f"{self.player_hand.name2.name}'s hand: {[str(card) for card in self.player_hand.name2.hand]}")
 
 # Get player1 input>>drawing card as per input>>moving card to holding deck> shuffling the hand to avoid cheating
             while True:
